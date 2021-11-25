@@ -19,6 +19,8 @@ settingsRoute = "settings";
 
   constructor() { 
 
+    console.log("Debug messages to troubleshoot development issue");
+
   setInterval(() => {
     let localdate = new Date();
     this.currentDate = localdate.toDateString() + ' ' + localdate.toLocaleTimeString();
