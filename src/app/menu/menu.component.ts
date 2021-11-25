@@ -17,6 +17,9 @@ settingsRoute = "settings";
   @Input('userName') userName: string | undefined;
   currentDate: string | undefined;
 
+  @Input('userName') newName: string | undefined;
+  newDate: string | undefined;
+
   constructor() { 
 
   setInterval(() => {
