@@ -28,7 +28,7 @@ settingsRoute = "settings";
   }, 1000)
 
     
-    
+  console.log("to check if interval worked - new debug message");
   }
 
   ngOnInit(): void {
