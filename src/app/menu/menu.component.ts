@@ -22,6 +22,8 @@ settingsRoute = "settings";
 
   constructor() { 
 
+    console.log("to check value - debug message");
+
   setInterval(() => {
     let localdate = new Date();
     this.currentDate = localdate.toDateString() + ' ' + localdate.toLocaleTimeString();
